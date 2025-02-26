@@ -1,4 +1,4 @@
-FROM node:18  # Use Node.js 18 as the base image
+ FROM node:18-alpine  # Use a lightweight Node.js 18 image
 
 # Set the working directory in the container
 WORKDIR /app
